@@ -20,7 +20,7 @@ a:hover {
 
 body {
   text-align: center;
-  background-color: var(--green);
+  background-color: var(--yellow);
 }
 
 h1 {
@@ -45,11 +45,12 @@ img {
 
 main {
   background-color: var(--green);
-  margin-left: 12%;
-  margin-right: 12%;
-  margin-top: 0%;
-  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
   padding: 20px;
+  width: 720px;
 }
 
 p {
