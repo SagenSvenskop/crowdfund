@@ -3,20 +3,18 @@
 
 <head>
   <link rel="stylesheet" href="style.css">
- <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Noto+Serif+KR:wght@600;700&family=Noto+Serif+TC:wght@700&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
   <div>
     <img src="assets/main-logo.png" alt="Logo">
   </div>
 
-  <h1>Har du också fått nog av skogsmissbruket?</h1>
-
-  <div>
+  <div class=div-text>
+    <h1>HAR DU OCKSÅ FÅTT NOG AV SKOGSMISSBRUKET?</h1>
     <p>
       Vill lära dig mer om skogens kritiska situation till följd av den
       dominerande svenska skogsbruksmodellen? Längtar du också efter ett långsiktigt och verkligt hållbart skogsbruk som
@@ -37,14 +35,15 @@
     </p>
   </div>
 
-  <h1>Kommande föreläsningar</h1>
 
-  <div id="lectures"></div>
+  <div id="lectures" class=div-text>
+    <h1>KOMMANDE FÖRELÄSNINGAR</h1>
+  </div>
 
-  <h1>Kommande träningar</h1>
-
-  <div id="trainings"></div>
-
+  
+  <div id="trainings" class=div-text padding-bottom="20px">
+    <h1>KOMMANDE TRÄNINGAR</h1>
+  </div>
 
   <script type="module" src="./displayEvents.js"></script>
 </body>
