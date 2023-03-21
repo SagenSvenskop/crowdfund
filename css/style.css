@@ -1,6 +1,6 @@
 :root {
   --white: #ffffff;
-  /*--red: #e94e1b;*/
+  --red: #e94e1b;
   --orange: #f59c1b;
   --yellow: hsl(53, 97%, 85%);
   --green: #026634;
@@ -9,6 +9,18 @@
 
 a {
   color: var(--yellow);
+  border-bottom: 1px solid var(--yellow);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--red);
+  border-bottom: 1px solid var(--red);
+}
+
+body {
+  text-align: center;
+  background-color: var(--green);
 }
 
 h1 {
@@ -24,18 +36,11 @@ h1 {
   text-align: left;
 }
 
-p {
-  color: var(--white);
-  font-family: Verdana, sans-serif;
-  font-size: 16px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: left;
-}
-
-body {
-  text-align: center;
-  background-color: var(--green);
+img {
+  width: 60%;
+  max-width: 400px;
+  margin: 20px;
+  margin-bottom: 10px;
 }
 
 main {
@@ -43,13 +48,15 @@ main {
   margin-left: 12%;
   margin-right: 12%;
   margin-top: 0%;
+  margin-bottom: 80px;
   padding: 20px;
 }
 
-img {
-  width: 60%;
-  max-width: 400px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+p {
+  color: var(--white);
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
 }
