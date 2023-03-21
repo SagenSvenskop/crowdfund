@@ -2,9 +2,8 @@ let lecturesContainer = document.getElementById('lectures');
 let trainingsContainer = document.getElementById('trainings');
 
 
-let res = fetch("./events.json")
+let res = fetch("./data/events.json")
     .then((response) => response.json())
-    //.then((json) => console.log(json))
     .then((json) => {
         const lectures = json.lectures;
         for (let i = 0; i < lectures.length; i++) {
