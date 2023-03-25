@@ -14,7 +14,7 @@ let res = fetch("./data/events.json")
         const trainings = json.trainings;
         for (let i = 0; i < trainings.length; i++) {
             let element = document.createElement("div");
-            element.innerHTML = `<p>${trainings[i]["place"]}: ${trainings[i]["time"]}</p>`;
+            element.innerHTML = `<p><a href="${trainings[i]["url"]}">${trainings[i]["place"]}</a>: ${trainings[i]["time"]}</p>`;
             trainingsContainer.appendChild(element);
         };
     });
