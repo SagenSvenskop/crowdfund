@@ -12,6 +12,6 @@ function addEventLinks(data, container) {
 let res = fetch("./data/events.json")
     .then((response) => response.json())
     .then((json) => {
-        addEventLinks(json.lectures, lecturesContainer);
-        addEventLinks(json.trainings, trainingsContainer);
+        lecturesContainer && addEventLinks(json.lectures, lecturesContainer);
+        trainingsContainer && addEventLinks(json.trainings, trainingsContainer);
     });
