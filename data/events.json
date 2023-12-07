@@ -1,56 +1,11 @@
 {
     "lectures": [
         {
-            "place": "Ubmeje / Umeå",
-            "url": "https://facebook.com/events/s/ubmejeumea-valkommen-till-skog/580241307474368/",
-            "time": "Lördag 25/3, kl. 13-14.30"
-        },
-        {
-            "place": "Syöldate / Skellefteå",
-            "url": "https://facebook.com/events/s/syoldate-skelleftea-valkommen-/918837955935172/",
-            "time": "Måndag 27/3, kl. 18-19.30"
-        },
-        {
-            "place": "Bihtám / Piteå",
-            "url": "https://facebook.com/events/s/bihtam-pitea-valkommen-till-sk/158187207036030/",
-            "time": "Onsdag 29/3, kl.18-19.30"
-        },
-        {
-            "place": "Julevu / Luleå",
-            "url": "https://facebook.com/events/s/julevu-lulea-valkommen-till-sk/127339606724242/ ",
-            "time": "Torsdag 30/3, kl. 18-19.30"
-        },
-        {
-            "place": "Váhtjer / Jiellevárre / Gällivare ",
-            "url": "https://facebook.com/events/s/jiellevarre-gallivare-valkomme/116391157938425/",
-            "time": "Lördag 1/4, kl. 13-14.30"
-        },
-        {
-            "place": "Jåhkåmåhkke / Jokkmokk",
-            "url": "https://facebook.com/events/s/jahkamahkke-jokkmokk-valkommen/191411600250035/",
-            "time": "Söndag 2/4, kl. 13-14.30"
-        },
-        {
-            "place": "Árviesjávrrie / Arvidsjaur",
-            "url": "https://facebook.com/events/s/arviesjavrrie-arvidsjaur-valko/111902721753715/",
-            "time": "Tisdag 4/4, kl. 18-19.30"
-        },
-        {
-            "place": "Staare / Östersund",
-            "url": "https://facebook.com/events/s/staare-ostersund-valkommen-til/752631959755105/",
-            "time": "Torsdag 6/4, kl. 18-19.30"
+            "place": "Bio Sågen - Visning av Outgrow the System",
+            "url": "https://www.facebook.com/events/1429165181281280/",
+            "time": "Fredag 15 December 2023"
         }
     ],
     "trainings": [
-        {
-            "place": "Ubmeje / Umeå",
-            "url": "https://fb.me/e/4nu1vpmBt",
-            "time": "Lördag och söndag, 6-7/5"
-        },
-        {
-            "place": "Jåhkåmåhkke / Jokkmokk",
-            "url": "https://fb.me/e/2uyRcZKAS",
-            "time": "Lördag och söndag, 27-28/5"
-        }
     ]
 }
