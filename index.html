@@ -8,6 +8,16 @@
   <title>Sågen i Svenskop</title>
 </head>
 <body>
+  <!--
+TODOS
+* 1xx xxx values displayed on two lines
+* ekonomiska föreningen stadgar
+* värderingsdokumentation
+* balansrapport 2022
+* sagen.svenskop@gmail.com kontakt
+* dokument med renoveringsbehov 
+* swishnumret och swish QR kod
+-->
 
   <main id="content">
     <div>
@@ -35,6 +45,7 @@
       <p>
         Vi behöver nu snabbt få ihop de 1 200 000 SEK som behövs för köpet inklusive lagfartsnabbt. 
       </p>
+      <meter id="INSAMLING" min="0" max="1200000" low="1000" optimum="1150000" value="150000">at 150 000/1 200 000</meter>
     </div>
     <div>
       <h1>CROWD-FUNDING</h1>
@@ -56,9 +67,52 @@
         vårt formulär</a> så hör vi av oss till dig!
       </p>
     </div>
+    <div>
+
+      <figure>
+
+        <div class="graphic">
+      
+          <div class="row">
+            <div class="chart">
+              <span class="block" title="Mottagna donationer">
+                  <span class="value">0</span>
+              </span>
+              <span class="block" title="Utlovade donationer">
+                  <span class="value">28000</span>
+              </span>
+              <span class="block" title="Mottagna lån">
+                  <span class="value">0</span>
+              </span>
+              <span class="block" title="Utlovade lån">
+                  <span class="value">650 000</span>
+              </span>
+              <span class="block" title="Saknas">
+                  <span class="value">472 000</span>
+              </span>
+            </div>
+          </div>
+      
+        </div>
+      
+        <div class="x-axis">
+          <ul class="legend">
+            <li>Mottagna donationer</li>
+            <li>Utlovade donationer</li>
+            <li>Mottagna lån</li>
+            <li>Utlovade lån</li>
+            <li>Saknas</li>
+          </ul>
+        </div>
+      
+      </figure>
+
+    </div>
   </main>
 
-  <script type="module" src="./javascript/displayEvents.js"></script>
+  <script src='./javascript/jquery311min.js'></script>
+  <script src="./javascript/progress.js"></script>
+  <!-- <script type="module" src="./javascript/displayEvents.js"></script> -->
+  
 </body>
-
 </html>
