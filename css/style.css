@@ -20,19 +20,19 @@
 }
 
 a {
-  color: var(--black);
-  border-bottom: 1px solid var(--black);
+  color: var(--col3);
+  border-bottom: 1px solid var(--col3);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--red);
-  border-bottom: 1px solid var(--red);
+  color: var(--col1);
+  border-bottom: 1px solid var(--col1);
 }
 
 body {
   text-align: center;
-  background-color: var(--black);
+  background-color: var(--col0);
 }
 h1{
   color: var(--black);
@@ -56,8 +56,6 @@ h2 {
 img {
   width: 60%;
   max-width: 150px;
-  /* margin: 20px; */
-  margin-bottom: 10px;
 }
 
 main {
