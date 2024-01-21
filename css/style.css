@@ -12,11 +12,14 @@
   --orangeLight: #E27A3F;
   --orangeDark: #DF5A49;
   --red: #e94e1b;
+  --brown: #6f2f1e;
+  --background: #f1d6ce;
 }
 
 @font-face {
-  font-family: SourceSerifPro;
-  src: url(../assets/fonts/SourceSerifPro.woff2);
+  font-family: AvenirBlack;
+  src: url(../assets/fonts/Avenir-Black.tff) format('truetype');
+  src: url(../assets/fonts/Avenir-Black.woff) format('woff');
 }
 
 a {
@@ -32,20 +35,19 @@ a:hover {
 
 body {
   text-align: center;
-  background-color: var(--col0);
+  background-color: var(--background);
 }
 h1{
-  color: var(--black);
-  font-family: Verdana;
-  font-size: 30px;
-  padding-top: 30px;
+  color: var(--brown);
+  font-family: AvenirBlack;
+  font-size: 40px;
   padding-left: 20px;
   padding-right: 20px;
 
 }
 h2 {
-  color: var(--black);
-  font-family: Verdana;
+  color: var(--brown);
+  font-family: AvenirBlack;
   font-size: 20px;
   padding-top: 20px;
   padding-left: 20px;
