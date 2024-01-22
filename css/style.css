@@ -80,6 +80,10 @@ h3{
   width: 60%;
   max-width: 150px;
 }
+.social-media {
+  height: 40px;
+  padding: 5px;
+}
 p {
   color: var(--black);
   font-family: 'Khula', sans-serif;
