@@ -43,10 +43,12 @@ main {
   text-align: center;
   color: var(--brown);
 }
-.link {
+a {
   color: var(--brownlight);
-  border-bottom: 1px solid var(--brownlight);
   text-decoration: none;
+}
+.link {
+  border-bottom: 1px solid var(--brownlight);
 }
 .link:hover {
   color: var(--brown);
@@ -85,6 +87,10 @@ h3{
 #swish {
   width: 60%;
   max-width: 150px;
+}
+.swish-number {
+  color: var(--black);
+  text-decoration: none;
 }
 .social-media {
   height: 40px;
