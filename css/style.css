@@ -5,6 +5,7 @@
   --col2: #496e1e;
   --col3: #a0442b;
   --col4: #6f2f1e;
+  --col5: #f4ddd6; /*#de9986;*/
   --col0: #E6E6E6;
   --brown: #6f2f1e;
   --brownlight: #a0442b;
@@ -174,6 +175,10 @@ figure {
 .legend li:nth-of-type(4):before {
   background-color: var(--col4);
 }
+.block:nth-of-type(5),
+.legend li:nth-of-type(5):before {
+  background-color: var(--col5);
+}
 .block:hover {
   opacity: .65;
 }
@@ -222,7 +227,7 @@ figure {
     font-size: 1em;
   }
   .legend {
-    width: 50%;
+    width: 60%;
   }
 }
 
