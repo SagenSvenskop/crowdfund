@@ -1,10 +1,10 @@
 :root {
   --white: #ffffff;
   --black: #000;
-  --col1: #6aa02b;/*#52B76F;*/
-  --col2: #496e1e;/*#00916E;*/
-  --col3: #a0442b;/*#E0B000;*/
-  --col4: #6f2f1e;/*#EDD62C;*/
+  --col1: #6aa02b;
+  --col2: #496e1e;
+  --col3: #a0442b;
+  --col4: #6f2f1e;
   --col0: #E6E6E6;
   --brown: #6f2f1e;
   --brownlight: #a0442b;
@@ -18,11 +18,14 @@
 body {
   text-align: center;
   background-color: var(--white);
+  background-image: url("../assets/sagen-bright.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1400px 2100px;
   margin: 0;
   padding: 0;
 }
 main {
-  background-color: var(--white);
   margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
@@ -217,7 +220,10 @@ figure {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px),
   only screen and (min-device-width: 375px) and (max-device-width: 720px) {
   body {
-    background-color: var(--white);
+    background-size: 800px 1200px;
+  }
+  h1 {
+    font-size: 36px;
   }
   h2 {
     font-size: 16px;
@@ -238,7 +244,10 @@ figure {
 /* IPHONE 5S/SE*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
   body {
-    background-color: var(--white);
+    background-size: 800px 1200px;
+  }
+  h1 {
+    font-size: 36px;
   }
   h2 {
     font-size: 16px;
